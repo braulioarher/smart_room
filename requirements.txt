@@ -1,0 +1,13 @@
+flask 
+flask-Migrate
+marshmallow
+sqlalchemy
+flask-wtf
+flask-sqlalchemy
+flask-jwt-extended
+flask-migrate
+cryptography
+flask-bootstrap
+Flask-APScheduler
+flask-login
+gunicorn

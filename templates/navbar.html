@@ -1,0 +1,67 @@
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="{{ url_for('Index.index') }}">SmartRoom</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="{{ url_for('Index.index') }}">Home</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            DB Operations
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="{{ url_for('Index.index') }}">Add Temperature</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('Index.index')}}">Show Temperatures</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="{{ url_for('Index.index') }}">Quick Forms Add Temp</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Acordeon Flask
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="{{ url_for('Index.index') }}">Crear aplicacion</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('Index.index') }}">Archivo config.py</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('Index.index') }}">Archivo models.py</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('Index.index') }}">Archivo forms.py</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('Index.index') }}">Archivo routes.py</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="{{ url_for('Index.index') }}">Notas y atajos</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('Index.index') }}">CLI de flask</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('Index.index') }}">Filtros</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('Index.index') }}">Cookies</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('Index.index') }}">Session</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Ejercicios Wings
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="{{ url_for('Index.index') }}">Wings RESTWebApi</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Notas y atajos
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="{{ url_for('Index.index') }}">flask.request</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('Index.index') }}">flask.jsonify</a></li>
+            <li><a class="dropdown-item" href="{{ url_for('Index.index') }}">Peticiones HTTP</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
